@@ -3,11 +3,14 @@
   background-size: cover;
   color: white;
   overflow: hidden;
+  display: flex;
 }
 
 nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  width: 100px;
   padding: 10px;
   background-color: white;
 }
@@ -15,6 +18,8 @@ nav {
 .page {
   padding: 10px;
   height: 100%;
+  flex: 1;
+  text-align: center;
   overflow-y: scroll;
 }
 
@@ -22,3 +27,5 @@ a {
   text-decoration: none;
   color: black;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Abel")

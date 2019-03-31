@@ -5,25 +5,38 @@ import "./NeoFeed.css";
 import moment from "moment";
 
 function NeoFeed() {
+
+  const sorting = (arr) => {
+    arr.sort((a,b) => {
+      if(moment(a).isBefore(b)) {
+        return -1
+      } else {
+        return 1
+      }
+    })
+    return arr
+  }
+  
   const asteroidsProvider = useContext(AsteroidsContext);
   const [date, setDate] = useState("");
-  
+  const [loading, setLoading] = useState(false)
   const endDate = moment(date)
-    .add(7, "days")
+    .add(6, "days")
     .format("YYYY-MM-DD");
-
   useEffect(
     function() {
+      setLoading(true)
+
       if (date !== "") {
         asteroidsProvider.fetchAsteroids(date, endDate);
       }
+      setLoading(false)
     },
     [date]
   );
-  
-  
+
   const asteroidDates = asteroidsProvider.getAsteroids(date, endDate) || {};
-  console.log(asteroidDates)
+
   return (
     <div>
       <h1>NeoFeed</h1>
@@ -33,6 +46,7 @@ function NeoFeed() {
       </p>
       <div>
         <input
+          className="extra_padding"
           onChange={e => {
             setDate(e.target.value);
           }}
@@ -40,10 +54,11 @@ function NeoFeed() {
         />
         <p> or </p>
         <button
+          className="extra_padding seven_day_btn"
           onClick={() => {
             setDate(
               moment()
-                .subtract(7, "days")
+                .subtract(6, "days")
                 .format("YYYY-MM-DD")
             );
           }}
@@ -51,21 +66,21 @@ function NeoFeed() {
           Last 7 days
         </button>
       </div>
-      {/* {asteroidDates !== {} ? <div className="loader"></div> : <p>oops</p>}   */}
-      {Object.keys(asteroidDates).map(eachDate => {
+      <div className={date !== "" && sorting(Object.keys(asteroidDates)).length > 0 ? "wrapping_results" : "hidden"}>
+      {loading !== true && sorting(Object.keys(asteroidDates)).map(date => {
         return (
-          <div key={eachDate}>
+          <div key={date}>
+            <Link className="date_anchor" to={`/asteroids/${date}`}>
             <p>
-              <Link className="date_anchor" to={`/asteroids/${eachDate}`}>
-                {moment(eachDate).format("DD-MMM-YYYY")}
-              </Link>{" "}
-              with {asteroidDates[eachDate].length} results
+              {moment(date).format("DD-MMM-YYYY")} with {asteroidDates[date].length} results
             </p>
+            </Link>
           </div>
         );
       })}
+      </div>
     </div>
   );
 }
 
-export default NeoFeed;
+export default NeoFeed
