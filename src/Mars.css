@@ -1,0 +1,10 @@
+.mars_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display_pictures {
+  width: 50%;
+  margin: 30px auto;
+}

@@ -1,3 +1,40 @@
 .home_page {
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.question {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.question > svg:hover {
+  cursor: pointer;
+}
+
+.question > svg {
+  position: relative;
+  animation: shine 2s infinite ease-in-out;
+}
+
+@keyframes shine {
+  0%   {fill: rgb(252, 199, 199);}
+  25%  {fill: rgb(233, 110, 94);}
+  50%  {fill: rgb(207, 54, 37);}
+  100% {fill: rgb(252, 199, 199);}
+}
+
+.picture_detail {
+  visibility: hidden;
+  width: 50%;
+  padding: 10px;
+  background-color: rgb(106, 104, 109, 0.5);
+  text-align: left;
+  position: absolute;
+  bottom: 15%;
+}
+
+.picture_detail.show {
+  visibility: visible;
 }

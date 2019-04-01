@@ -1,0 +1,18 @@
+.search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.search_btn:hover {
+  cursor: pointer;
+}
+
+.extra_padding {
+  width: 25%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}

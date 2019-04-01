@@ -2,25 +2,21 @@
   height: 100vh;
   background-size: cover;
   color: white;
-  overflow: hidden;
+  overflow-y: hidden;
   display: flex;
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100px;
   padding: 10px;
-  background-color: white;
 }
 
 .page {
   padding: 10px;
-  height: 100%;
   flex: 1;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 a {

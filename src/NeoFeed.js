@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import { AsteroidsContext } from "./providers/AsteroidsProvider";
 import { Link } from "react-router-dom";
-import "./NeoFeed.css";
 import moment from "moment";
 
 function NeoFeed() {
