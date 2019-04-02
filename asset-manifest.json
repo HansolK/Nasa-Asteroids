@@ -1,5 +1,5 @@
 {
-  "main.css": "/Nasa-Asteroids/static/css/main.88f6ddee.chunk.css",
+  "main.css": "/Nasa-Asteroids/static/css/main.a6dfe78f.chunk.css",
   "main.js": "/Nasa-Asteroids/static/js/main.cf16d425.chunk.js",
   "main.js.map": "/Nasa-Asteroids/static/js/main.cf16d425.chunk.js.map",
   "runtime~main.js": "/Nasa-Asteroids/static/js/runtime~main.8a64fa23.js",
@@ -8,10 +8,10 @@
   "static/js/2.ceccab9e.chunk.js": "/Nasa-Asteroids/static/js/2.ceccab9e.chunk.js",
   "static/js/2.ceccab9e.chunk.js.map": "/Nasa-Asteroids/static/js/2.ceccab9e.chunk.js.map",
   "index.html": "/Nasa-Asteroids/index.html",
-  "precache-manifest.077107c36679143ff4474aa06c4a2dda.js": "/Nasa-Asteroids/precache-manifest.077107c36679143ff4474aa06c4a2dda.js",
+  "precache-manifest.63136fd92f5ddf27c2929499896caab8.js": "/Nasa-Asteroids/precache-manifest.63136fd92f5ddf27c2929499896caab8.js",
   "service-worker.js": "/Nasa-Asteroids/service-worker.js",
   "static/css/2.78b7b2c7.chunk.css.map": "/Nasa-Asteroids/static/css/2.78b7b2c7.chunk.css.map",
-  "static/css/main.88f6ddee.chunk.css.map": "/Nasa-Asteroids/static/css/main.88f6ddee.chunk.css.map",
+  "static/css/main.a6dfe78f.chunk.css.map": "/Nasa-Asteroids/static/css/main.a6dfe78f.chunk.css.map",
   "static/media/Asteroid-PNG-Photos.png": "/Nasa-Asteroids/static/media/Asteroid-PNG-Photos.c838c3a5.png",
   "static/media/home-fill.svg": "/Nasa-Asteroids/static/media/home-fill.0ec96c33.svg",
   "static/media/user-solo-stroke.svg": "/Nasa-Asteroids/static/media/user-solo-stroke.0e5f97b7.svg"
