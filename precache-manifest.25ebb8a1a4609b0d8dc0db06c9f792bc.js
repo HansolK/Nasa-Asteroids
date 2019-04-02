@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/Nasa-Asteroids/static/js/runtime~main.048e66d4.js"
   },
   {
-    "revision": "0af04f6997bbe35393c8",
-    "url": "/Nasa-Asteroids/static/js/main.9bb9e56e.chunk.js"
+    "revision": "f912610d5be75c830b53",
+    "url": "/Nasa-Asteroids/static/js/main.a0718145.chunk.js"
   },
   {
     "revision": "1bd4b73acb6d4ed4b8b2",
     "url": "/Nasa-Asteroids/static/js/2.6bbbaef0.chunk.js"
   },
   {
-    "revision": "0af04f6997bbe35393c8",
+    "revision": "f912610d5be75c830b53",
     "url": "/Nasa-Asteroids/static/css/main.2bfa5270.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Nasa-Asteroids/static/css/2.52c75941.chunk.css"
   },
   {
-    "revision": "ab4b81de2d4bde3106c1c0ba2cadd496",
+    "revision": "81f2e4b17ac8e04ba06ea2c55efea0d4",
     "url": "/Nasa-Asteroids/index.html"
   }
 ];
