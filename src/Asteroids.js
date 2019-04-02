@@ -5,12 +5,13 @@ import "./App.css";
 import "./Asteroids.css";
 import moment from "moment";
 
+
 function Asteroids(props) {
   const asteroidsProvider = useContext(AsteroidsContext);
   let specificAsteroids = "";
   const today = moment().format("YYYY-MM-DD");
   const id = props.match.params.date;
-
+  
   if (id === "") {
     specificAsteroids = asteroidsProvider.lookupAsteroids[today];
   } else {

@@ -48,7 +48,7 @@ function Header() {
             </NavItemIcon>
             <NavItemText>Asteroids</NavItemText>
           </NavItem>
-          <NavItem as={Link} to="/mars">
+          <NavItem as={Link} to={`/mars/${today}`}>
             <NavItemIcon>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

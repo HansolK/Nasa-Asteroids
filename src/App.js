@@ -35,7 +35,7 @@ function App() {
           <Route exact path="/about" render={() => <About />} />
           <Route exact path="/neofeed" component={NeoFeed}/>
           <Route exact path="/asteroids/:date" component={Asteroids} />
-          <Route exact path="/mars" render={() => <Mars />} />
+          <Route exact path="/mars/:date" component={Mars}/>
         </Switch>
       </div>
     </div>
