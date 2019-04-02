@@ -8,27 +8,31 @@ self.__precacheManifest = [
     "url": "/Nasa-Asteroids/static/media/home-fill.0ec96c33.svg"
   },
   {
+    "revision": "c838c3a5b8c7e2b70930a8c09ec64cac",
+    "url": "/Nasa-Asteroids/static/media/Asteroid-PNG-Photos.c838c3a5.png"
+  },
+  {
     "revision": "69525bd9ade42fbe4ef3",
     "url": "/Nasa-Asteroids/static/js/runtime~main.8a64fa23.js"
   },
   {
-    "revision": "0845769d1a250652687f",
-    "url": "/Nasa-Asteroids/static/js/main.0c8b58c8.chunk.js"
+    "revision": "93ccbf065e4ab5de9a1a",
+    "url": "/Nasa-Asteroids/static/js/main.95656172.chunk.js"
   },
   {
-    "revision": "43e393f1da16d98ce290",
-    "url": "/Nasa-Asteroids/static/js/2.acbb8fa4.chunk.js"
+    "revision": "b023f28cf1e16dafb682",
+    "url": "/Nasa-Asteroids/static/js/2.706711ff.chunk.js"
   },
   {
-    "revision": "0845769d1a250652687f",
-    "url": "/Nasa-Asteroids/static/css/main.d4802566.chunk.css"
+    "revision": "93ccbf065e4ab5de9a1a",
+    "url": "/Nasa-Asteroids/static/css/main.cc13a1b1.chunk.css"
   },
   {
-    "revision": "43e393f1da16d98ce290",
+    "revision": "b023f28cf1e16dafb682",
     "url": "/Nasa-Asteroids/static/css/2.78b7b2c7.chunk.css"
   },
   {
-    "revision": "875a5526fe4aae87d223152c18f74bb2",
+    "revision": "e0ca9cf85f191f269f0a63d0a9ff2590",
     "url": "/Nasa-Asteroids/index.html"
   }
 ];
