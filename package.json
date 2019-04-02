@@ -2,7 +2,7 @@
   "name": "nasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hansolk.github.io/Nasa-Asteroids/",
+  "homepage": "https://hansolk.github.io/Nasa-Asteroids",
   "dependencies": {
     "@zendeskgarden/react-chrome": "^4.6.2",
     "@zendeskgarden/react-loaders": "^0.4.1",
