@@ -6,7 +6,6 @@ import { Carousel } from "react-bootstrap";
 import { Dots } from '@zendeskgarden/react-loaders'
 
 function Mars(props) {
-  const recentDate = moment().format("YYYY-MM-DD")
   const selectedDate = moment(props.match.params.date).format("YYYY-MM-DD")
   const [photos, setPhotos] = useState([]);
   const [direction, setDirection] = useState(null);

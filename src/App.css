@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
 .App {
   height: 100vh;
   background-size: cover;
@@ -24,4 +26,3 @@ a {
   color: black;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Abel")

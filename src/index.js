@@ -17,7 +17,7 @@ const theme = {
 };
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Nasa-Asteroids/">
     <AsteroidsProvider>
       <ThemeProvider theme={theme}>
         <App />

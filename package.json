@@ -2,6 +2,7 @@
   "name": "nasa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hansolk.github.io/Nasa-Asteroids/",
   "dependencies": {
     "@zendeskgarden/react-chrome": "^4.6.2",
     "@zendeskgarden/react-loaders": "^0.4.1",
@@ -10,6 +11,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
@@ -23,6 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
