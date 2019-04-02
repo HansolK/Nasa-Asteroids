@@ -4,7 +4,7 @@ import "./Search.css";
 import "./App.css";
 import "./Asteroids.css";
 import moment from "moment";
-
+import asteroidsImage from './Asteroid-PNG-Photos.png'
 
 function Asteroids(props) {
   const asteroidsProvider = useContext(AsteroidsContext);
@@ -51,7 +51,7 @@ function Asteroids(props) {
                   <div className="line">
                     {asteroid.close_approach_data[0].miss_distance.kilometers}km
                   </div>
-                  <img id="asteroid" src="/Asteroid-PNG-Photos.png" />
+                  <img id="asteroid" src={asteroidsImage} />
                 </div>
               </div>
             );
