@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/HansolK/Nasa-Asteroids/precache-manifest.628c93b5ad500893fe8d1e4b84377e60.js"
+  "/Nasa-Asteroids/precache-manifest.58791025328e1ad8463df8ae35f02496.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/HansolK/Nasa-Asteroids/index.html", {
+workbox.routing.registerNavigationRoute("/Nasa-Asteroids/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
