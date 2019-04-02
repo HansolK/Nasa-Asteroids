@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/HansolK/Nasa-Asteroids/precache-manifest.853c3d7c4a99cc308c416c86a33754a4.js"
+  "/HansolK/Nasa-Asteroids/precache-manifest.628c93b5ad500893fe8d1e4b84377e60.js"
 );
 
 workbox.clientsClaim();
